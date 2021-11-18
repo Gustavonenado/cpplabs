@@ -1,0 +1,36 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main()
+{
+    int m, n, L, D;
+    cout << "m="; cin >> m;
+    cout << "n="; cin >> n;
+   
+
+    for(int i = 1; i < m; i++)
+    {
+        int S = 0;
+        L = i;
+
+        while (L > 0)
+        {
+            D = L % 10;
+            L = L / 10;
+            S = S + D;
+           
+        }
+
+        if (S == n) {
+            cout << i << endl;
+        }
+        
+    }
+   
+    
+
+
+
+
+}
