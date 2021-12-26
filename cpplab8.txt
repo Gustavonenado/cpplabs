@@ -1,0 +1,7 @@
+﻿Build started...
+1>------ Build started: Project: lab8c++, Configuration: Debug Win32 ------
+1>lab8c++.cpp
+1>C:\Users\valik\source\repos\lab8c++\lab8c++\lab8c++.cpp(65,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+1>lab8c++.vcxproj -> C:\Users\valik\source\repos\lab8c++\Debug\lab8c++.exe
+1>Done building project "lab8c++.vcxproj".
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
